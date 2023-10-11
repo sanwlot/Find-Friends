@@ -1,0 +1,32 @@
+.card {
+  background-color: rgba(144, 238, 144, 0.314);
+  border: 1px solid rgba(128, 128, 128, 0.383);
+  border-radius: 15px;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.31);
+}
+
+.card:active {
+  box-shadow: none;
+}
+
+.card img {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+
+}
+
+.card div {
+  padding: 10px;
+} 
+
+.card div h2 {
+  margin-bottom: 10px;
+  width: 200px;
+}

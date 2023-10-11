@@ -1,0 +1,6 @@
+.scroll-component {
+  overflow-y: scroll;
+  height: 70vh;
+  width: 100%;
+  border: 5px solid rgba(0, 0, 0, 0.081);
+}
